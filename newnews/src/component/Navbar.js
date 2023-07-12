@@ -32,15 +32,15 @@ export class Navbar extends Component {
 
 
               </ul>
-              <li class="nav-item dropdown d-flex">
-          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'white'}}>
+              <li className="nav-item dropdown d-flex">
+          <Link className=" dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'white'}}>
             Country Name
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" >in</a></li>
-            <li><a class="dropdown-item" >us</a></li>
-            <li><a class="dropdown-item" >uk</a></li>
-            <li><a class="dropdown-item" >ch</a></li>
+          </Link>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><Link className="dropdown-item" >in</Link></li>
+            <li><Link className="dropdown-item" >us</Link></li>
+            <li><Link className="dropdown-item" >uk</Link></li>
+            <li><Link className="dropdown-item" >ch</Link></li>
 
            
           </ul>
